@@ -1,87 +1,210 @@
 [
-	{
-		"id": "0001",
-		"type": "well",
-		"name": "GEo-01",
+  {
+    "id": "0001",
+    "type": "well",
+    "name": "GEo-01",
     "date": 2017,
-		"MD": 744.06,
-		"lat": 46.2216243,
+    "MD": 744.06,
+    "lat": 46.2216243,
     "lon": 6.0468839,
     "Proprietaire": "SIG",
     "Projet": "Geothermie2020",
     "By": "SEMM Logging",
-		"curve":
-			[
-				{ "name": "DEPTH", "desc": "None" },
-				{ "name": "BS", "desc": "Bit Size" },
-				{ "name": "CALI", "desc": "Merged RCL_SM.CALI_1 with RAW_8IN_LDT.DCAL_1 at 403.94" },
-				{ "name": "CAL_X", "desc": "X-Caliper" },
-				{ "name": "CAL_Y", "desc": "Y-Caliper" },
-				{ "name": "DRHO", "desc": "Bulk Density Correction" },
-				{ "name": "DTC", "desc": "ompressional wave slowness" },
-        { "name": "GR", "desc": "Natural Gamma Ray" },
-				{ "name": "NPHI", "desc": "Neutron Porosity" },
-				{ "name": "PEF", "desc": "Photo-electric Factor" },
-				{ "name": "POTA", "desc": "Potassium content" },
-        { "name": "RD", "desc": "Deep Resistivity" },
-				{ "name": "RES_IND30", "desc": "30'' Induction Resistivity" },
-				{ "name": "RES_IND60", "desc": "60'' Induction Resistivity" },
-				{ "name": "RHOB", "desc": "Bulk Density" },
-        { "name": "RS", "desc": "Shallow Resistivity" },
-				{ "name": "SP", "desc": "Spontaenous Potential" },
-				{ "name": "THOR", "desc": "Thorium concentration" },
-        { "name": "URAN", "desc": "Uranium concentration" },
-			]
-	},
+    "curves": {
+      "curve": [
+        {
+          "name": "DEPTH",
+          "desc": "None"
+        },
+        {
+          "name": "BS",
+          "desc": "Bit Size"
+        },
+        {
+          "name": "CALI",
+          "desc": "Merged RCL_SM.CALI_1 with RAW_8IN_LDT.DCAL_1 at 403.94"
+        },
+        {
+          "name": "CAL_X",
+          "desc": "X-Caliper"
+        },
+        {
+          "name": "CAL_Y",
+          "desc": "Y-Caliper"
+        },
+        {
+          "name": "DRHO",
+          "desc": "Bulk Density Correction"
+        },
+        {
+          "name": "DTC",
+          "desc": "ompressional wave slowness"
+        },
+        {
+          "name": "GR",
+          "desc": "Natural Gamma Ray"
+        },
+        {
+          "name": "NPHI",
+          "desc": "Neutron Porosity"
+        },
+        {
+          "name": "PEF",
+          "desc": "Photo-electric Factor"
+        },
+        {
+          "name": "POTA",
+          "desc": "Potassium content"
+        },
+        {
+          "name": "RD",
+          "desc": "Deep Resistivity"
+        },
+        {
+          "name": "RES_IND30",
+          "desc": "30'' Induction Resistivity"
+        },
+        {
+          "name": "RES_IND60",
+          "desc": "60'' Induction Resistivity"
+        },
+        {
+          "name": "RHOB",
+          "desc": "Bulk Density"
+        },
+        {
+          "name": "RS",
+          "desc": "Shallow Resistivity"
+        },
+        {
+          "name": "SP",
+          "desc": "Spontaenous Potential"
+        },
+        {
+          "name": "THOR",
+          "desc": "Thorium concentration"
+        },
+        {
+          "name": "URAN",
+          "desc": "Uranium concentration"
+        }
+      ]
+    }
+  },
   {
-		"id": "0002",
-		"type": "well",
-		"name": "Thonex-1",
+    "id": "0002",
+    "type": "well",
+    "name": "Thonex-1",
     "date": 1993,
-		"MD": 2649,
-		"lat": 46.2018228,
+    "MD": 2649,
+    "lat": 46.2018228,
     "lon": 6.2113378,
     "Proprietaire": "",
     "Projet": "",
     "By": "",
-		"curve":
-			[
-				{ "name": "DEPTH", "desc": "Depth" },
-				{ "name": "CALI", "desc": "Merged RCL_SM.CALI_1 with RAW_8IN_LDT.DCAL_1 at 403.94" },
-				{ "name": "DRHO", "desc": "Bulk Density Correction" },
-				{ "name": "DT", "desc": "ompressional wave slowness" },
-        { "name": "GR", "desc": "Natural Gamma Ray" },
-				{ "name": "NPHI", "desc": "Neutron Porosity" },
-        { "name": "PEF", "desc": "Photo-electric Factor" },
-        { "name": "RD", "desc": "Deep Resistivity" },
-				{ "name": "RHOB", "desc": "Bulk Density" },
-        { "name": "RS", "desc": "Shallow Resistivity" },
-				{ "name": "SP", "desc": "Spontaenous Potential" },
-        { "name": "TEMP", "desc": "Temperature" },
-			]
-	},
+    "curves": {
+      "curve": [
+        {
+          "name": "DEPTH",
+          "desc": "Depth"
+        },
+        {
+          "name": "CALI",
+          "desc": "Merged RCL_SM.CALI_1 with RAW_8IN_LDT.DCAL_1 at 403.94"
+        },
+        {
+          "name": "DRHO",
+          "desc": "Bulk Density Correction"
+        },
+        {
+          "name": "DT",
+          "desc": "ompressional wave slowness"
+        },
+        {
+          "name": "GR",
+          "desc": "Natural Gamma Ray"
+        },
+        {
+          "name": "NPHI",
+          "desc": "Neutron Porosity"
+        },
+        {
+          "name": "PEF",
+          "desc": "Photo-electric Factor"
+        },
+        {
+          "name": "RD",
+          "desc": "Deep Resistivity"
+        },
+        {
+          "name": "RHOB",
+          "desc": "Bulk Density"
+        },
+        {
+          "name": "RS",
+          "desc": "Shallow Resistivity"
+        },
+        {
+          "name": "SP",
+          "desc": "Spontaenous Potential"
+        },
+        {
+          "name": "TEMP",
+          "desc": "Temperature"
+        }
+      ]
+    }
+  },
   {
-		"id": "0003",
-		"type": "well",
-		"name": "Humilly-2",
+    "id": "0003",
+    "type": "well",
+    "name": "Humilly-2",
     "date": 1968,
-		"MD": 4222,
-		"lat": 46.114825,
+    "MD": 4222,
+    "lat": 46.114825,
     "lon": 6.0250778,
     "Proprietaire": "Société Nationale des Pétroles d’Aquitaine",
     "Projet": "Geothermie2020",
     "By": "SEMM Logging",
-		"curve":
-			[
-        { "name": "DEPTH", "desc": "Depth" },
-				{ "name": "CALI", "desc": "Merged RCL_SM.CALI_1 with RAW_8IN_LDT.DCAL_1 at 403.94" },
-				{ "name": "DRHO", "desc": "Bulk Density Correction" },
-				{ "name": "DT", "desc": "ompressional wave slowness" },
-        { "name": "GR", "desc": "Natural Gamma Ray" },
-				{ "name": "NPHI", "desc": "Neutron Porosity" },
-        { "name": "RD", "desc": "Deep Resistivity" },
-				{ "name": "RHOB", "desc": "Bulk Density" },
-        { "name": "TEMP", "desc": "Temperature" },
-			]
-	},
+    "curves": {
+      "curve": [
+        {
+          "name": "DEPTH",
+          "desc": "Depth"
+        },
+        {
+          "name": "CALI",
+          "desc": "Merged RCL_SM.CALI_1 with RAW_8IN_LDT.DCAL_1 at 403.94"
+        },
+        {
+          "name": "DRHO",
+          "desc": "Bulk Density Correction"
+        },
+        {
+          "name": "DT",
+          "desc": "ompressional wave slowness"
+        },
+        {
+          "name": "GR",
+          "desc": "Natural Gamma Ray"
+        },
+        {
+          "name": "NPHI",
+          "desc": "Neutron Porosity"
+        },
+        {
+          "name": "RD",
+          "desc": "Deep Resistivity"
+        },
+        {
+          "name": "RHOB",
+          "desc": "Bulk Density"
+        },
+        {
+          "name": "TEMP",
+          "desc": "Temperature"
+        }
+      ]
+    }
+  }
 ]
