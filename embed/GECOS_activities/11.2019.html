@@ -1,0 +1,79 @@
+    <html>
+      <head>
+        <title>GECOS app</title>
+
+        <script src="https://unpkg.com/deck.gl@^7.0.0/dist.min.js"></script>
+
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Raleway:400,700&display=swap" rel="stylesheet">
+        <script src="https://d3js.org/colorbrewer.v1.min.js"></script>
+        <script src='https://d3js.org/d3.v4.min.js'></script>
+        <script src="https://d3js.org/d3-array.v2.min.js"></script>
+        <script src="https://d3js.org/d3-color.v1.min.js"></script>
+        <script src="https://d3js.org/d3-format.v1.min.js"></script>
+        <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+        <script src="https://d3js.org/d3-time.v1.min.js"></script>
+        <script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+        <script src="https://d3js.org/d3-scale.v3.min.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/0303568efd.js" crossorigin="anonymous"></script>
+
+        <!-- gecos app style -->
+        <link rel="stylesheet" href="./src/css/gecos.css" type="text/css">
+
+      </head>
+
+      <body>
+          <div id="tooltip"></div>
+          <div id="control-panel-gecos">
+            <!-- <h4 style="font-size:22px;font-weight:700;">Legend</h4> -->
+            <!-- <p>This app allows to visualizing and analysing all the geological, geophysical and engineering data that play a major
+              role in developing the understanding of geothermal energy potential in the Great Geneva basin. The data are classified under three main
+              categories: <strong>Geological</strong>, <strong>Geophysical</strong> and <strong>Engineering</strong>.
+            </p> -->
+
+            <!-- <div >
+              <input type="radio" name="" value="">
+            </div> -->
+            <div class="lightgrey">
+              <h4 class="card-body-title"> Surface Seismic - S Waves</h4>
+              <div class="card-body">
+                <label class="card-body-style"><i class="fas fa-bacon"  style="color:#ffc300; padding:10px 10px 10px 10px"></i> November 2019</label>
+                  <input id="november2019" type="checkbox" data-toggle='collapse' data-target='#after2015' checked></input>
+                  <!-- <svg >
+                    <g transform="translate(0, 0)">
+                      <rect width="20" height="10" style="fill: rgb(255,195,0);"></rect>
+                    </g>
+                  </svg> -->
+              </div>
+              <div class="card-body">
+                <label class="card-body-style"><i class="fas fa-bacon"  style="color:#f10bac; padding:10px 10px 10px 10px"></i> Q3-Q4 2020</label>
+                  <input id="q3q42020" type="checkbox" data-toggle='collapse' data-target='#before_2015' checked></input>
+              </div>
+            </div>
+
+            <div class="lightgrey">
+              <h4 class="card-body-title"> DAS - Vertical Seismic Profiling</h4>
+              <div class="card-body">
+                <label class="card-body-style"><i class="fas fa-circle" style="color:#ffffff; padding:10px 10px 10px 10px"></i> January 2020</label>
+                  <input id="GEo-01" type="checkbox" data-toggle='collapse' data-target='#after2015' checked></input>
+
+              </div>
+
+            </div>
+
+
+      </div>
+
+
+
+      </body>
+      <script type="text/javascript" src="./src/js/gecos.js"></script>
+    </html>
