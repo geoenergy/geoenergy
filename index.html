@@ -86,67 +86,17 @@
             </nav>
         </div>
         <div class="main-container">
-          <div class="main-container">
+          <section class="overlay fullscreen parallax image-bg pt160 pb160">
+                <div class="background-image-holder">
+                    <img alt="Background" class="background-image" src="img/Outcrop.png" />
+                </div> 
               <!-- <section class="pt240 pb240 parallax image-bg overlay bg-light"> -->
-              <section class="pt200  bg-light" style="padding-bottom:20px;">
-
                   <!-- <div class="background-image-holder">
                       <img alt="image" class="background-image" src="img/home19.jpg" />
                   </div> -->
                   <div class="container">
-                    <!-- <script type="text/javascript">
-                    var TxtType = function(el, toRotate, period) {
-          this.toRotate = toRotate;
-          this.el = el;
-          this.loopNum = 0;
-          this.period = parseInt(period, 10) || 2000;
-          this.txt = '';
-          this.tick();
-          this.isDeleting = false;
-      };
-      TxtType.prototype.tick = function() {
-          var i = this.loopNum % this.toRotate.length;
-          var fullTxt = this.toRotate[i];
-          if (this.isDeleting) {
-          this.txt = fullTxt.substring(0, this.txt.length - 1);
-          } else {
-          this.txt = fullTxt.substring(0, this.txt.length + 1);
-          }
-          this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-          var that = this;
-          var delta = 200 - Math.random() * 100;
-          if (this.isDeleting) { delta /= 2; }
-          if (!this.isDeleting && this.txt === fullTxt) {
-          delta = this.period;
-          this.isDeleting = true;
-          } else if (this.isDeleting && this.txt === '') {
-          this.isDeleting = false;
-          this.loopNum++;
-          delta = 500;
-          }
-          setTimeout(function() {
-          that.tick();
-          }, delta);
-      };
-      window.onload = function() {
-          var elements = document.getElementsByClassName('typewrite');
-          for (var i=0; i<elements.length; i++) {
-              var toRotate = elements[i].getAttribute('data-type');
-              var period = elements[i].getAttribute('data-period');
-              if (toRotate) {
-                new TxtType(elements[i], JSON.parse(toRotate), period);
-              }
-          }
-          // INJECT CSS
-          var css = document.createElement("style");
-          css.type = "text/css";
-          css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #292929}";
-          document.body.appendChild(css);
-      };
-                    </script> -->
-
                       <div class="row">
-                          <div class="col-sm-12 text-center">
+                          <div class="col-sm-12 pt120 text-center">
                               <img alt="Logo" src="img/FDRAS_logo.png" class="image-md" />
                               <h1 class="" style="font-size:60px;font-weight:600;letter-spacing:10px !important"> <span  style="font-size: 0.7em;font-weight:300;letter-spacing:1px !important" class="type"></span>
                                 <!-- </a> -->
@@ -165,6 +115,11 @@
                                     });
 
                       </script>
+                      <div class="row">
+                          <div class="col-sm-12 text-center">
+                              <h3 class="uppercase mb64 mb-xs-30">Phase II : Mouth bar architectures</h3>
+                          </div>
+                      </div>
                       <!--end of row-->
                   </div>
                   <!--end of container-->
@@ -186,12 +141,8 @@
                   </div> -->
               </section>
               <section class="bg-light" style="padding-top:20px">
-                  <div class=" container">
-                      <div class="row">
-                          <div class="col-sm-12 text-center">
-                              <h3 class="uppercase mb64 mb-xs-30">Phase II : Mouth bar architectures</h3>
-                          </div>
-                      </div>
+                  <div class=" container pt40">
+                      
                       <!--end of row-->
                       <div class="row">
                           <div class="logo-carousel">
@@ -296,25 +247,45 @@
                   
               </section>
 
-              <section id="Virtual" class="image-edge pt120 pb120 pt-xs-40 pb-xs-40">
-                  <div class="col-sm-8 col-sm-6 p0">
-                      <img alt="Screenshot" class="mb-xs-24" src="img/Background.png" />
-                  </div>
-                  <div class="container-fluid">
-                    <div class="col-sm-6 mb-xs-24">
-                        <h2 class="mb64 mb-xs-32"> Why use virtual outcrops ? </h2>
-                        <div class="mb40 mb-xs-24">
-                            <!-- <h5 class="uppercase bold mb16">Screenshots for days</h5> -->
-                            <p class="fade-1-4">
-                                In subsurface studies, reservoir-forming geobodies typically have dimensions that fit between the resolution of well and seismic scales. Therefore, accurate representation of geobodies architectures, heterogeneities and geometries is challenging. The workflow proposed in this project aims at extracting large, high-resolution datasets from outcrop analogues and integrate those data into a standard modelling workflow through the use of virtual outcrop models.
-                                Thanks to the democratization of UAVs, it is nowadays cheap and fast to acquire a set of high-resolution, georeferenced pictures of an outcrop, to the scale of several kilometers in width and hundreds of meter in height. The emergence of performant tools for the processing and interpreting virtual outcrops allows for the development of quantitative datasets based on fit-for-purpose analogue studies.
-                            </p>
-                        </div>
+              <!-- section id="Virtual" class="image-edge pt120 pb120 pt-xs-40 pb-xs-40" -->
+              <section>
+                <div class="container-fluid">
+                  <div class="row v-align-children">
+                    <div class="col-md-6">
+                      <div class="image">
+                        <img alt="Screenshot" class="image-edge" src="img/Background.png" />
+                      </div>    
                     </div>
+                  <div class="col-md-6 content">
+                      <h2> Why use virtual outcrops ? </h2>
+                        
+                            <!-- <h5 class="uppercase bold mb16">Screenshots for days</h5> -->
+                      <p class="mb0">
+                        In subsurface studies, reservoir-forming geobodies typically have dimensions that fit between the resolution of investigation of well and seismic scales. Therefore, accurate representation of geobodies architectures, heterogeneities and geometries is challenging. The workflow proposed in this project aims at extracting large, high-resolution datasets from outcrop analogues and integrate those data into a standard modelling workflow through the use of virtual outcrop models in order to bridge the resolution gap and improve interpolation during the modelling process.
+                                
+                      </p>
+                        
                   </div>
+                </div>
+              </div>
                   <!--end of container-->
               </section>
-            
+            <section>
+              <div class="container-fluid">
+                <div class="row v-align-children">
+                  <div class="col-md-6 content">
+                      <h2>Working with virtual outcrops</h2>
+                    <p class="mb0">
+                        Thanks to the democratization of UAVs, it is nowadays cheap and fast to acquire a set of high-resolution, georeferenced pictures of an outcrop, to the scale of several kilometers in width and hundreds of meter in height. The emergence of performant tools for the processing and interpretation of virtual outcrops allows for the development of quantitative datasets based on fit-for-purpose analogue studies.
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="image">
+                        <img alt="outcrop movie" class="image" src="img/Outcrop_movie.gif" />
+                    </div>
+                  </div>
+              </div>  
+            </section>
             <section id="contact" class="bg-primary pb0">
                 <div class="container">
                     <div class="row mb64 mb-xs-32">
@@ -335,7 +306,7 @@
                     </div>
                 </div>
             </section>
-        </div>
+        
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/flickr.js"></script>
