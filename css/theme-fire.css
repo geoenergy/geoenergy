@@ -545,7 +545,7 @@ ul.lead li {
 }
 /*!---------- 4. COLOURS ----------*/
 .bg-primary {
-  background: #fc4f4f !important;
+  background: #4E9258 !important;
 }
 .bg-secondary {
   background: #f8f8f8;
@@ -785,7 +785,7 @@ footer.bg-dark li,
   min-width: 0;
 }
 .btn-filled {
-  background: #fc4f4f;
+  background: #4E9258;
   color: #fff;
 }
 .btn-white,
@@ -2638,7 +2638,7 @@ button[type="submit"] .form-loading {
 .feature-1 i {
   display: inline-block;
   margin-bottom: 16px;
-  color: #fc4f4f;
+  color: #4E9258;
 }
 .feature-2 i {
   display: block;
