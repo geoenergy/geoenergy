@@ -583,6 +583,10 @@ footer {
 .fullscreen {
   height: 100vh;
 }
+.fullscreenhalf {
+  height: 50vh;
+}
+
 .bg-dark h1,
 nav.bg-dark h1,
 footer.bg-dark h1,
